@@ -1,9 +1,6 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
-  // BuildingOffice2Icon,
-  // CalendarIcon,
-  // FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
@@ -26,7 +23,6 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -124,11 +120,8 @@ export const aboutData: About = {
   to organizations as a candid communicator and open-minded team player.`,
   aboutItems: [
     { label: 'Location', text: 'Atlanta, GA', Icon: MapIcon },
-    // { label: 'Age', text: '29', Icon: CalendarIcon },
-    // { label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon },
     { label: 'Interests', text: 'Swimming, Tennis, Bicycle', Icon: SparklesIcon },
     { label: 'Study', text: 'Stanford Brown College', Icon: AcademicCapIcon },
-    // { label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -404,7 +397,7 @@ export const experience: TimelineItem[] = [
  * Testimonial section
  */
 export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
+  imageSrc: heroImage,
   testimonials: [
     {
       name: 'John Doe',
