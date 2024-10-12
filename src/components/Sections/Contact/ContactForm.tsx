@@ -90,6 +90,7 @@ const ContactForm: FC = memo(() => {
         type="submit">
         Send Message
       </button>
+      <div>{status}</div>
     </form>
   );
 });
