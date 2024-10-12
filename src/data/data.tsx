@@ -14,14 +14,9 @@ import heroImage from '../images/testimonial.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -155,15 +150,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 10,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Vue',
+        level: 10,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Angular',
+        level: 8,
       },
     ],
   },
@@ -172,15 +167,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
+        level: 9,
+      },
+      {
+        name: 'Python',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
+        name: 'PHP',
+        level: 8,
       },
     ],
   },
@@ -189,10 +184,10 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 10,
       },
       {
-        name: 'Flutter',
+        name: 'Android',
         level: 4,
       },
       {
@@ -208,70 +203,40 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Healthcare platform',
+    description: 'Digital healthcare platform to make natural therapies and high-quality care accessible from the comfort of your home.',
+    url: 'https://polln.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Sports Card Marketplace',
+    description: 'Marketplace that specializes in making it as easy as possible to buy & sell sports cards.',
+    url: 'https://buysportscards.com',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Food booking site',
+    description: "Discover and book the best dining experiences with ease! Whether you're craving gourmet meals, local delicacies, or hidden gems, Deliciously Reserved connects you to top restaurants and chefs.Browse menus, reserve a table, and enjoy seamless online bookings.Your next unforgettable meal is just a click away!",
+    url: '',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Icecream Man',
+    description: 'Craving your favorite scoop? Ice Cream Man makes it easier than ever to satisfy your sweet tooth! Browse through a variety of flavors, book your ice cream order online, and enjoy quick, delicious deliveries or pick-ups. Whether it’s for a party, a treat for yourself, or a family outing, we’ve got the perfect frozen delights ready for you.',
+    url: '',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Bionic Trader',
+    description: 'Financial Datavisualization Platform',
+    url: 'https://bionictrader.com',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'e-Gift Market',
+    description: 'Spread joy in just a few clicks! Our e-gift selling platform offers a wide range of digital gift cards for every occasion. From birthdays to holidays, surprise your loved ones with personalized, instant e-gifts they’ll love. Choose from popular brands, customize your message, and send it straight to their inbox. Gifting has never been easier, faster, or more thoughtful!',
+    url: 'https://corporategift.com',
     image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -427,23 +392,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'paul.a.thomp.dev001@gmail.com',
+      href: 'mailto:paul.a.thomp.dev001@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Atlanta GA, US',
+      href: 'https://www.google.com/maps/place/Atlanta,+GA/@33.7674828,-84.5025313,28911m',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      type: ContactType.LinkedIn,
+      text: '@paul-a-thom',
+      href: 'linkedin.com/in/paul-a-t-1479b7327/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'WebKing0121',
+      href: 'https://github.com/WebKing0121',
     },
   ],
 };
